@@ -6,8 +6,8 @@ import {
 @Component({
   selector: 'user-info',
   encapsulation: ViewEncapsulation.Native,
-  styleUrls: ['app/components/accordion/user-info/user-info.css'],
-  templateUrl: 'app/components/accordion/user-info/user-info.html'
+  styleUrls: ['app/components/user-info/user-info.css'],
+  templateUrl: 'app/components/user-info/user-info.html'
 })
 
 export class UserInformation implements OnInit, OnDestroy, OnChanges {

@@ -5,7 +5,7 @@ import {bootstrap} from '@angular/platform-browser-dynamic';
 @Component({
   selector: 'app',
   directives: [Accordion],
-  template: `<accordion></accordion>`
+  template: `<h1>Angular2 Components</h1><!--accordion></accordion-->`
 })
 
 export class App {}
