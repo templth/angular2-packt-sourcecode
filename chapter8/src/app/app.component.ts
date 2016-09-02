@@ -1,7 +1,9 @@
-import { Component, ViewEncapsulation } from '@angular/core';
-import { Collapse } from './components/collapse/collapse';
+import {Component} from '@angular/core';
+import {Collapse} from './components/collapse/collapse';
+import * as $ from 'jquery';
+import 'bootstrap';
 
-declare var $: any;
+//declare var $: any;
 
 @Component({
   moduleId: module.id,

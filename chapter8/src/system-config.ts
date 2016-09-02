@@ -52,6 +52,8 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
+    'jquery': 'vendor/jquery/dist/jquery.min.js',
+    'bootstrap': 'vendor/bootstrap/dist/js/bootstrap.min.js',
     'main': 'main.js'
   },
   packages: cliSystemConfigPackages

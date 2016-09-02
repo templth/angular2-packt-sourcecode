@@ -1,4 +1,4 @@
-import {Component, ViewEncapsulation, AfterViewInit, ElementRef} from '@angular/core';
+import {Component, AfterViewInit, ElementRef} from '@angular/core';
 
 declare var $: any;
 
