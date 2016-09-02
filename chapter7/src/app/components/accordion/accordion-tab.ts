@@ -6,7 +6,7 @@ import {
 
 @Component({
   selector: 'accordion-tab',
-  encapsulation: ViewEncapsulation.Native,
+  //encapsulation: ViewEncapsulation.Native,
   styles: [`
   .accordion-tab {
    width: 500px;
@@ -23,7 +23,7 @@ import {
   <div class="accordion-tab">
    <div class="accordion-heading" (click)="toggleContent()">{{title}}</div>
    <div>
-    <content *ngIf="extended"></content>
+    <ng-content *ngIf="extended"></ng-content>
    </div>
   </div>
   `

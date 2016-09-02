@@ -6,7 +6,7 @@ import {UserInformation} from '../user-info/user-info'
 
 @Component({
   selector: 'accordion',
-  encapsulation: ViewEncapsulation.Native,
+  //encapsulation: ViewEncapsulation.Native,
   directives: [AccordionTab, UserInformation],
   providers: [HTTP_PROVIDERS],
   template: `
