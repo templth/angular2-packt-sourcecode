@@ -1,11 +1,10 @@
 import {
-  Component, ViewEncapsulation, Input,
+  Component, Input,
   OnInit, OnDestroy, OnChanges
   } from '@angular/core';
 
 @Component({
   selector: 'user-info',
-  encapsulation: ViewEncapsulation.Native,
   styleUrls: ['app/components/user-info/user-info.css'],
   templateUrl: 'app/components/user-info/user-info.html'
 })
