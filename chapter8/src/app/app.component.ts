@@ -3,8 +3,6 @@ import {Collapse} from './components/collapse/collapse';
 import * as $ from 'jquery';
 import 'bootstrap';
 
-//declare var $: any;
-
 @Component({
   moduleId: module.id,
   selector: 'app-root',

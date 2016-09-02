@@ -1,6 +1,6 @@
 import {Component, AfterViewInit, ElementRef} from '@angular/core';
-
-declare var $: any;
+import * as $ from 'jquery';
+import 'bootstrap';
 
 @Component({
   selector: 'collapse',
