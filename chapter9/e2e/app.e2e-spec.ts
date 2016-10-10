@@ -1,10 +1,10 @@
-import { Chapter9Page } from './app.po';
+import { NgComponentsPage } from './app.po';
 
-describe('chapter9 App', function() {
-  let page: Chapter9Page;
+describe('ng-components App', function() {
+  let page: NgComponentsPage;
 
   beforeEach(() => {
-    page = new Chapter9Page();
+    page = new NgComponentsPage();
   });
 
   it('should display message saying app works', () => {
