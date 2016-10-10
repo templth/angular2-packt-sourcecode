@@ -1,12 +1,11 @@
-import {Component} from '@angular/core';
-import {Collapse} from './components/collapse/collapse';
-import * as $ from 'jquery';
+import { Component } from '@angular/core';
+
+import 'expose?jQuery!jquery';
 import 'bootstrap';
+import * as $ from 'jquery';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-root',
-  styleUrls: [ 'app.component.css' ],
   template: `
     <h1 data-toggle="tooltip"
         data-placement="bottom"
@@ -14,7 +13,6 @@ import 'bootstrap';
 
     <collapse></collapse>
   `,
-  directives: [ Collapse ]
 })
 export class AppComponent {
   ngAfterViewInit() {

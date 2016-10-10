@@ -1,11 +1,11 @@
 import {Component, AfterViewInit, ElementRef} from '@angular/core';
+
 import * as $ from 'jquery';
-import 'bootstrap';
 
 @Component({
   selector: 'collapse',
-  styleUrls: [ 'app/components/collapse/collapse.css' ],
-  templateUrl: 'app/components/collapse/collapse.html'
+  styleUrls: [ './collapse.css' ],
+  templateUrl: './collapse.html'
 })
 
 export class Collapse implements AfterViewInit {
@@ -18,6 +18,8 @@ export class Collapse implements AfterViewInit {
   }
 
   ngAfterViewInit() {
+    console.log('>> ', $('.collapse'));
+    console.log('>> ', $('.collapse').collapse);
     $('.collapse').collapse();
   }
 }
