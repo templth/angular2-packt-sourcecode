@@ -1,5 +1,5 @@
 import {Component, Inject, ViewEncapsulation} from '@angular/core';
-import {Http, HTTP_PROVIDERS} from '@angular/http';
+import {Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 import {AccordionTab} from './accordion-tab';
 import {UserInformation} from '../user-info/user-info'
@@ -7,8 +7,8 @@ import {UserInformation} from '../user-info/user-info'
 @Component({
   selector: 'accordion',
   //encapsulation: ViewEncapsulation.Native,
-  directives: [AccordionTab, UserInformation],
-  providers: [HTTP_PROVIDERS],
+  //directives: [AccordionTab, UserInformation],
+  //providers: [HTTP_PROVIDERS],
   template: `
   <div>
    <button (click)="fetchData()">update data</button>

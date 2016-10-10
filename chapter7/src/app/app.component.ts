@@ -1,11 +1,8 @@
-import {Component} from '@angular/core';
-import {Accordion} from './components/accordion/accordion';
-import {bootstrap} from '@angular/platform-browser-dynamic';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  directives: [Accordion],
-  template: `<accordion></accordion>`
+  templateUrl: './app.component.html'
 })
-
-export class AppComponent {}
+export class AppComponent {
+}

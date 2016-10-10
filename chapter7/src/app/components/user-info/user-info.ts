@@ -5,8 +5,8 @@ import {
 
 @Component({
   selector: 'user-info',
-  styleUrls: ['app/components/user-info/user-info.css'],
-  templateUrl: 'app/components/user-info/user-info.html'
+  styleUrls: ['./user-info.css'],
+  templateUrl: './user-info.html'
 })
 
 export class UserInformation implements OnInit, OnDestroy, OnChanges {

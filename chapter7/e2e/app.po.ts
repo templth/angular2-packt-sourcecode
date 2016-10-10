@@ -1,4 +1,6 @@
-export class Chapter7Page {
+import { browser, element, by } from 'protractor';
+
+export class NgComponentsPage {
   navigateTo() {
     return browser.get('/');
   }

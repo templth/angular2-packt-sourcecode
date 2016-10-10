@@ -3,7 +3,6 @@ import {
     Input, Output, EventEmitter
 }  from '@angular/core';
 
-
 @Component({
   selector: 'accordion-tab',
   //encapsulation: ViewEncapsulation.Native,
@@ -28,7 +27,6 @@ import {
   </div>
   `
 })
-
 export class AccordionTab {
   @Input()  extended;
   @Input()  title;
